@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+header {
+    background-color: #e91e63;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a #home :hover{
+    font-size: larger;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f06292;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #e91e63;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #f8bbd0;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #f8bbd0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    margin-top: 0;
+}
+
+.service-card p {
+    margin: 15px 0;
+}
+
+.service-card .btn {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.service-card .btn:hover {
+    background-color: #d81b60;
+}
+
+/* Emergency Section */
+.emergency-section {
+    background-color: #f06292;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.emergency-section h2 {
+    font-size: 2em;
+}
+
+.emergency-section .helpline-info p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.emergency-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #d81b60;
+}
+
+/* Footer */
+footer {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
