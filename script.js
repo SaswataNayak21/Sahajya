@@ -10,6 +10,8 @@
 //         window.location.href = "home.html"; // Redirect to home page on successful login
 //     } else {
 //         alert("Invalid email or password");
+// backebend server side programming
+
 //     }
 // });
 
