@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Women's 24/7 Helpline</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>SOUBHAGYA - Login</h1>
+        </div>
+    </header>
+
+    <!-- Login Form Section -->
+    <section id="login">
+        <div class="container">
+            <h2>Login to Your Account</h2>
+            <form id="loginForm" action="index.html" method="GET" onsubmit="return validateLogin()">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#">Sign up here</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Women's 24/7 Helpline. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function validateLogin() {
+            // Here you can add real validation logic to check credentials
+            // For now, just simulating successful login
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Example validation
+            if (username === "user" && password === "password") {
+                return true; // Proceed to redirect to index.html
+            } else {
+                alert("Invalid username or password!");
+                return false; // Prevent the form from submitting
+            }
+        }
+    </script>
+</body>
+</html>
